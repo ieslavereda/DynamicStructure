@@ -24,5 +24,15 @@ public class Pila<T> {
 		size++;
 	}
 	
-	
+	public T get(){
+		
+		if(head==null) {
+			return null;
+		}else {
+			T aux = head.getInfo();
+			head=head.getNext();
+			size--;
+			return aux;
+		}		
+	}	
 }
