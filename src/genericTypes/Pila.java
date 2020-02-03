@@ -1,11 +1,11 @@
 package genericTypes;
 
-public class Lista<T> {
+public class Pila<T> {
 
 	private int size;
 	private Nodo<T> head;
 	
-	public Lista() {
+	public Pila() {
 		size=0;
 		head=null;
 	}
